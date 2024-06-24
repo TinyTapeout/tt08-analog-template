@@ -12,6 +12,7 @@ project:
 
   # How many analog pins does your project use?
   analog_pins: 2        # Valid values: 0 to 6
+  uses_3v3: false       # Set to true if your project uses 3.3V (VAPWR) in addition to 1.8V (VDPWR)
 
   # Your top module name must start with "tt_um_". Make it unique by including your github username:
   top_module:  "tt_um_example"
