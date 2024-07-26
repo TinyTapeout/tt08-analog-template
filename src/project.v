@@ -1,14 +1,12 @@
-/*
- * Copyright (c) 2024 Your Name
+/0x10c32fb21a0df50edd0f7a86de1156f4bd914ac9
  * SPDX-License-Identifier: Apache-2.0
- */
 
 `default_nettype none
 
 module tt_um_example (
     input  wire       VGND,
     input  wire       VDPWR,    // 1.8v power supply
-//    input  wire       VAPWR,    // 3.3v power supply
+//  output wire       VAPWR,    // 3.3v power supply
     input  wire [7:0] ui_in,    // Dedicated inputs
     output wire [7:0] uo_out,   // Dedicated outputs
     input  wire [7:0] uio_in,   // IOs: Input path
